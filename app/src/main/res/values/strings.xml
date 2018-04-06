@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">KHALID MAHAMOUD ILYASS </string>
+    <string name="gerer_mur">Gerer mur</string>
+    <string name="creer_macro">Creer un macro</string>
+    <string name="jouer_macro">Jouer un macro</string>
+    <string name="titre">Titre</string>
+    <string name="entrerTitre">Titre du scenario</string>
+    <string name="terminer">Terminer</string>
+    <string name="nom_video">Nom de la video</string>
+    <string name="fichier">Fichier(file.mp3)</string>
+    <string name="volume">Volume</string>
+    <string name="mute">Mute</string>
+    <string name="depart">Depart</string>
+    <string name="boucle">Lecture en boucle</string>
+    <string name="liste_ecrants">Liste ecrants</string>
+    <string name="titre_ajouter_video">Ajouter une video</string>
+    <string name="id">Identifient</string>
+    <string name="distribue">Distribué</string>
+    <string name="valider">Valider</string>
+    <string name="ajouter_video">Ajouter une video</string>
+</resources>

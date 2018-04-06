@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:text="@string/gerer_mur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="127dp"
+        android:id="@+id/gererMurButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/creerMacroButton"
+        android:layout_alignEnd="@+id/creerMacroButton"
+        android:layout_alignLeft="@+id/creerMacroButton"
+        android:layout_alignStart="@+id/creerMacroButton" />
+
+    <Button
+        android:text="@string/creer_macro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/creerMacroButton"
+        android:layout_below="@+id/gererMurButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/jouer_macro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/jouerMacroButton"
+        android:layout_below="@+id/creerMacroButton"
+        android:layout_alignLeft="@+id/creerMacroButton"
+        android:layout_alignStart="@+id/creerMacroButton" />
+</RelativeLayout>

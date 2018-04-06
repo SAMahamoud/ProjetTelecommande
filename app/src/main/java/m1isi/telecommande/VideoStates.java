@@ -1,0 +1,3 @@
+package m1isi.telecommande;
+
+public enum VideoStates {PLAY,PAUSE,STOP,MUTE,UNMUTE,VOLUMEUP,VOLUMEDOWN,LOOP,UNLOOP,SELECTED,UNSELECTED;}

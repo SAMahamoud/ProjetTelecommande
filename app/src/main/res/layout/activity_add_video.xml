@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/ajouter_video"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            tools:textColor="@android:color/holo_red_light"
+            tools:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_weight="0.94"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:ems="10"
+                android:id="@+id/fileTextView"
+                android:hint="@string/fichier"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/idTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/id"
+                android:inputType="none"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+            <CheckBox
+                android:id="@+id/distributed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/distribue"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/loop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boucle"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="31dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="277dp"
+            android:layout_height="602dp"
+            android:weightSum="1"
+            android:layout_weight="0.11">
+
+            <TextView
+                android:text="@string/volume"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:id="@+id/textView26"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="193dp">
+
+                <NumberPicker
+                    android:id="@+id/volumeNumePicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fadeScrollbars="true" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"></LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/mute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mute"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+                    <!--android:textAlignment="textStart"-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="@string/depart"
+                    android:ems="10"
+                    android:id="@+id/editText16"
+                    android:textStyle="normal|bold"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textAlignment="center" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <NumberPicker
+                        android:id="@+id/departureMinute"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <NumberPicker
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/departureSec"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="1102dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.65"
+            android:weightSum="1">
+
+            <TextView
+                android:text="@string/liste_ecrants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:layout_weight="0.17" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="341dp"
+                android:layout_weight="0.63"
+                android:id="@+id/screensTableLayout">
+
+            </TableLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.23"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="490dp"
+                    android:layout_height="match_parent"></LinearLayout>
+
+                <Button
+                    android:text="@string/valider"
+                    android:layout_width="294dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/validerButton" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
